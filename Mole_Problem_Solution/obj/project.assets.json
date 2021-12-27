@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\Mole_Problem_Solution\\Mole_Problem_Solution\\Mole_Problem_Solution.csproj",
+      "projectUniqueName": "D:\\Job\\Itemis\\Mole-Hole-Problem\\Mole_Problem_Solution\\Mole_Problem_Solution.csproj",
       "projectName": "Mole_Problem_Solution",
-      "projectPath": "C:\\Users\\User\\source\\repos\\Mole_Problem_Solution\\Mole_Problem_Solution\\Mole_Problem_Solution.csproj",
+      "projectPath": "D:\\Job\\Itemis\\Mole-Hole-Problem\\Mole_Problem_Solution\\Mole_Problem_Solution.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\Mole_Problem_Solution\\Mole_Problem_Solution\\obj\\",
+      "outputPath": "D:\\Job\\Itemis\\Mole-Hole-Problem\\Mole_Problem_Solution\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

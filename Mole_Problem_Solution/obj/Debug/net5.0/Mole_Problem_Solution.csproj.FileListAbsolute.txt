@@ -1,0 +1,16 @@
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\bin\Debug\net5.0\Mole_Problem_Solution.exe
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\bin\Debug\net5.0\Mole_Problem_Solution.deps.json
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\bin\Debug\net5.0\Mole_Problem_Solution.runtimeconfig.json
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\bin\Debug\net5.0\Mole_Problem_Solution.runtimeconfig.dev.json
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\bin\Debug\net5.0\Mole_Problem_Solution.dll
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\bin\Debug\net5.0\ref\Mole_Problem_Solution.dll
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\bin\Debug\net5.0\Mole_Problem_Solution.pdb
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\obj\Debug\net5.0\Mole_Problem_Solution.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\obj\Debug\net5.0\Mole_Problem_Solution.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\obj\Debug\net5.0\Mole_Problem_Solution.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\obj\Debug\net5.0\Mole_Problem_Solution.AssemblyInfo.cs
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\obj\Debug\net5.0\Mole_Problem_Solution.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\obj\Debug\net5.0\Mole_Problem_Solution.dll
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\obj\Debug\net5.0\ref\Mole_Problem_Solution.dll
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\obj\Debug\net5.0\Mole_Problem_Solution.pdb
+C:\Users\User\source\repos\Mole_Problem_Solution\Mole_Problem_Solution\obj\Debug\net5.0\Mole_Problem_Solution.genruntimeconfig.cache

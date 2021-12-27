@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Mole_Problem_Solution/1.0.0": {
+        "runtime": {
+          "Mole_Problem_Solution.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mole_Problem_Solution/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

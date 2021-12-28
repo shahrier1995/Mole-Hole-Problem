@@ -6,8 +6,14 @@ namespace Mole_Test
 {
     public class Program
     {
+        //This is the solution for the 'A mountain of a mole hill' from CodingGame.
+        //I used fooldfill algorithm for solving this problem.
+        //This solution passed all the test cases in CodingGame.
+        
+
         List<int> moleCount = new List<int>();
-        public void floodfill(int[,] paramArray, int a, int b)
+
+        public void floodFill(int[,] paramArray, int a, int b)
         {
             if (a < 0 || a > 15 || b < 0 || b > 15 || paramArray[a, b] == 1)
             {
@@ -18,14 +24,14 @@ namespace Mole_Test
                 moleCount.Add(1);
             }
             paramArray[a, b] = 1;
-            floodfill(paramArray, a + 1, b);
-            floodfill(paramArray, a + 1, b + 1);
-            floodfill(paramArray, a, b + 1);
-            floodfill(paramArray, a - 1, b + 1);
-            floodfill(paramArray, a - 1, b);
-            floodfill(paramArray, a - 1, b - 1);
-            floodfill(paramArray, a, b - 1);
-            floodfill(paramArray, a + 1, b - 1);
+            floodFill(paramArray, a + 1, b);
+            floodFill(paramArray, a + 1, b + 1);
+            floodFill(paramArray, a, b + 1);
+            floodFill(paramArray, a - 1, b + 1);
+            floodFill(paramArray, a - 1, b);
+            floodFill(paramArray, a - 1, b - 1);
+            floodFill(paramArray, a, b - 1);
+            floodFill(paramArray, a + 1, b - 1);
         }
        
         public static int Main(string[] args)
@@ -60,9 +66,10 @@ namespace Mole_Test
                     }
                 }
             }
-            
-            //Check the mole holes is on fence or two fences are parallel or not
-            
+
+            //Check the mole holes is on fence or two fences are parallel or not.
+            //Uncomment this 'for loop' fo checking those conditions.
+
             //for (int x = 0; x < 16; x++)
             //{
             //    for (int y = 0; y < 16; y++)
@@ -75,19 +82,19 @@ namespace Mole_Test
             //                return 0;
             //            }
             //        }
-            
+
             //        if (tempArray[x, y] == 1)
             //        {
-            //            if (mp.countFences(tempArray, x, y) == false)
+            //            if (mp.checkParallelFences(tempArray, x, y) == false)
             //            {
             //                Console.WriteLine("fences cant be parallel");
-            //                mp.countFences(mainArray, x, y);
             //                return 0;
             //            }
             //        }
-            
+
             //    }
             //}
+
             for (int x = 0; x < 16; x++)
             {
                 for (int y = 0; y < 16; y++)
@@ -99,7 +106,7 @@ namespace Mole_Test
                         {
                             if (mainArray[x, 1] != 1)
                             {
-                                mp.floodfill(mainArray, x, 1);
+                                mp.floodFill(mainArray, x, 1);
                             }
             
                         }
@@ -107,7 +114,7 @@ namespace Mole_Test
                         {
                             if (mainArray[x, y + 1] != 1 && mainArray[x, y - 1] != 1)
                             {
-                                mp.floodfill(mainArray, x, y + 1);
+                                mp.floodFill(mainArray, x, y + 1);
                             }
                         }
             
@@ -126,7 +133,7 @@ namespace Mole_Test
 
         //Functions for checking if a mole hole is on fence or
         // two parallel fences touch each other. 
-        public bool countFences(int[,] paramArray, int a, int b)
+        public bool checkParallelFences(int[,] paramArray, int a, int b)
         {
             int count = 0;
             if (a + 1 > 15 || a - 1 < 0 || b + 1 > 15 || b - 1 < 0)
@@ -171,7 +178,7 @@ namespace Mole_Test
         }
         public bool moleOnFence(int[,] paramArray, int a, int b)
         {
-            if (a + 1 > 15 || a + 2 > 15 || a - 1 < 0 || a - 2 < 0 || b + 1 > 15 || b + 2 > 15 || b - 1 < 0 || b - 2 < 0)
+            if (a + 1 > 15 || a - 1 < 0 || b + 1 > 15 || b - 1 < 0 /*|| a + 2 > 15 ||  a - 2 < 0 ||  b + 2 > 15 || b - 1 < 0 || b - 2 < 0*/)
             {
                 return true;
             }
@@ -198,5 +205,4 @@ namespace Mole_Test
             }
         }
     }
-
 }
